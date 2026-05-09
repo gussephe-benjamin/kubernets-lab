@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: flask-app  # Nombre del namespace donde vivirán todos nuestros recursos
+  labels:
+    app: flask-demo
+    environment: development  # Etiqueta para identificar el entorno
